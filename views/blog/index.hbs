@@ -1,0 +1,10 @@
+<div id='blog-index'>
+    {{#each data}}
+        <div class='blog-post'>
+            <h2><a href="blog/{{id}}">{{title}}</a></h1>
+            <p>By: <a href="user/{{user_id}}">{{first_name}} {{last_name}}</a></p>
+            <p>{{content}}</p>
+        </div>
+    {{/each}}
+</div>
+
